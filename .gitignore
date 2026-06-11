@@ -1,0 +1,13 @@
+# Ignore local uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Ignore local secrets configuration
+config/env.php
+
+# Ignore common OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
